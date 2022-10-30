@@ -1,5 +1,5 @@
 import type { Component } from "solid-js";
-import { CardProps } from "./components/CardProps";
+import { Card } from "./components/Card";
 import { For } from "solid-js";
 import { AniList } from "./AniList";
 
@@ -15,7 +15,7 @@ const App: Component = () => {
           </div>
           <div id="list" class={"grid items-stretch lg:grid-cols-2 grid-cols-1 p-1 place-items-center gap-4 max-h-[600px] max-w-[900px] mx-auto overflow-y-scroll"}>
             <For each={AniList}>{(anime) =>
-              <CardProps
+              <Card
                 title={anime.title}
                 description={anime.description}
                 image={anime.coverImage}
