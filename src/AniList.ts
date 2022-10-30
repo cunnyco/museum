@@ -1,6 +1,6 @@
-import { IAnimeList } from "./types/list.interface";
+import { IList } from "./types/list.interface";
 
-export const AniList: Array<IAnimeList> = [
+export const AniList: Array<IList> = [
   {
     title: {
       japanese: "超次元ゲイム ネプテューヌ THE ANIMATION",
