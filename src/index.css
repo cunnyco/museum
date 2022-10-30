@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Noto+Sans+Thai&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Asap', sans-serif;
+}
+
+/*p, span, a, input, button, textarea {*/
+/*  font-family: 'Noto Sans Thai', sans-serif;*/
+/*}*/
+
+
+#list::-webkit-scrollbar {
+  width: 7px;
+}
+
+#list::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+#list::-webkit-scrollbar-thumb {
+  background: rgb(146, 146, 146);
+  border-radius: 10px;
+}
+
+#list::-webkit-scrollbar-thumb:hover {
+  background: #535353;
+}
