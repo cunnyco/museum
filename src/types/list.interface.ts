@@ -1,4 +1,4 @@
-export interface IAnimeList {
+export interface IList {
   title: {
     japanese: string;
     romaji: string;
