@@ -29,4 +29,18 @@ export const AniList: Array<IAnimeList> = [
     isEnded: true,
     episodes: 12,
   },
+    {
+    title: {
+      japanese: "86-エイティシックス",
+      romaji: "86 -Eighty Six-",
+    },
+    website: {
+      info: "https://myanimelist.net/anime/41457/86",
+      stream: "https://www.netflix.com/th/title/81442047",
+    },
+    description: "Eighty-Six:86 is a masterpiece in the truest sense of the word and is one of the best stories in the modern history of the medium. 86 depicts the brutal nature of war, racism and oppression in such a way that you can’t help but to be absorbed into the story, characters and fall in love with the series.",
+    coverImage: "86.jpg",
+    isEnded: true,
+    episodes: 23,
+  },
 ];
