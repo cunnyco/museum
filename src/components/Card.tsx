@@ -1,7 +1,7 @@
 import { Component } from "solid-js";
 import { IAnimeList } from "../types/list.interface";
 
-export const CardProps: Component = ({ ...props }: IAnimeList) => {
+export const Card: Component = ({ ...props }: IAnimeList) => {
   return (
     <div class={"rounded-lg"} style={{ "background-image": `url('/cover/${props.coverImage}')`, "background-size": "cover" }}>
       <div class={"flex flex-col gap-2 p-4 bg-black/75 w-full h-full rounded-lg"}>
