@@ -43,4 +43,18 @@ export const AniList: Array<IList> = [
     isEnded: true,
     episodes: 23,
   },
+  {
+      title: {
+          japanese: "ヴィヴィ -フローライトアイズソング-",
+          romaji: "Vivy - Flourite Eye's Song-",
+      },
+      website: {
+          info: "https://vivy-anime.com/",
+          stream: "https://aisplay.ais.co.th/portal/get_section/60687d1e35f15f3d15f1d6dc/",
+      },
+      description: "The female looking and first autonomous AI named Diva is created for one mission to make everyone happy by singing. Shortly Diva is confronted by an unknown “program” from the future with objective to make Diva join him and destroy AIs.",
+      coverImage: "vivy.jpg",
+      isEnded: true,
+      episodes: 13,
+  },
 ];
